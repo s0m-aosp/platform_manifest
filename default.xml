@@ -13,7 +13,7 @@
 
   <default revision="refs/tags/android-6.0.1_r61"
            remote="aosp"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="android_build" remote="som" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -504,7 +504,6 @@
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
