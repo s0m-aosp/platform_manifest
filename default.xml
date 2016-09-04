@@ -552,5 +552,5 @@
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
   <project path="device/huawei/g750t01" name="omnirom_device_huawei_g750t01" remote="omnirom-mtk" revision="android-6.0" />
-  <project path="vendor/huawei/g750t01" name="omnirom_vendor_huawei_g750t01" remote="omnirom-mtk" revision="android-6.0" />
+  <project path="vendor/Micromax/E313" name="android_vendor_Micromax_E313" remote="som" revision="mm6.0" />
 </manifest>
