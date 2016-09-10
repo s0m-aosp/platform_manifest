@@ -14,7 +14,7 @@
   <remote  name="omnirom-mtk"
            fetch="https://github.com/omnirom-mtk" />
 
-  <remote  name="som"
+  <remote  name="s0m-aosp"
            fetch="https://github.com/s0m-aosp"
            revision="mm6.0" />
            
@@ -27,7 +27,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
-  <project path="bionic" name="android_bionic" remote="som" revision="mm6.0" />
+  <project path="bionic" name="s0m-aosp/android_bionic" remote="github" revision="mm6.0" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="mm6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -148,7 +148,7 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="som" revision="mm6.0" />
+  <project path="external/jpeg" name="s0m-aosp/android_external_jpeg" remote="github" revision="mm6.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -239,7 +239,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy-mtk" remote="som" revision="mm6.0" />
+  <project path="external/sepolicy" name="s0m-aosp/android_external_sepolicy" remote="github" revision="mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -255,8 +255,8 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="som" revision="mm6.0" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="som" revision="mm6.0" />
+  <project path="external/tinyalsa" name="s0m-aosp/android_external_tinyalsa" remote="github" revision="mm6.0" />
+  <project path="external/tinycompress" name="s0m-aosp/android_external_tinycompress" remote="github" revision="mm6.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
@@ -268,14 +268,14 @@
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="som" revision="mm6.0" />
+  <project path="external/wpa_supplicant_8" name="s0m-aosp/android_external_wpa_supplicant_8" remote="github" revision="mm6.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="frameworks_av" remote="som" revision="mm6.0" />
-  <project path="frameworks/base" name="frameworks_base" remote="som" revision="mm6.0" />
+  <project path="frameworks/av" name="s0m-aosp/frameworks_av" remote="github" revision="mm6.0" />
+  <project path="frameworks/base" name="s0m-aosp/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -284,7 +284,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="som" revision="mm6.0" />
+  <project path="frameworks/native" name="s0m-aosp/frameworks_native" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -304,11 +304,11 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="som" revision="mm6.0" />
+  <project path="frameworks/opt/telephony" name="s0m-aosp/frameworks_opt_telephony" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="som" revision="mm6.0" />
+  <project path="frameworks/rs" name="s0m-aosp/frameworks_rs" groups="pdk" remote="github" revision="mm6.0" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" remote="github" revision="mm6.0" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
@@ -407,7 +407,7 @@
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
   <project path="packages/apps/ExactCalculator" name="SlimRoms/packages_apps_ExactCalculator" remote="github" revision="mm6.0" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="mm6.0" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="som" revision="mm6.0" />
+  <project path="packages/apps/FMRadio" name="s0m-aosp/android_packages_apps_FMRadio" remote="github" revision="mm6.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="mm6.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
@@ -496,17 +496,17 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="android_system_bt" remote="som" revision="mm6.0" />
-  <project path="system/core" name="android_system_core" remote="som" revision="mm6.0" />
+  <project path="system/bt" name="s0m-aosp/android_system_bt" remote="github" revision="mm6.0" />
+  <project path="system/core" name="s0m-aosp/android_system_core" remote="github" revision="mm6.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="mm6.0" />
-  <project path="system/netd" name="android_system_netd" remote="som" revision="mm6.0" />
+  <project path="system/netd" name="s0m-aosp/android_system_netd" remote="github" revision="mm6.0" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="mm6.0" />
-  <project path="system/vold" name="android_system_vold" remote="som" revision="mm6.0" />
+  <project path="system/vold" name="s0m-aosp/android_system_vold" remote="github" revision="mm6.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -522,7 +522,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="som" revision="mm6.0" />
+  <project path="platform_manifest" name="s0m-aosp/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="mm6.0" />
@@ -551,6 +551,6 @@
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
-  <project path="device/huawei/g750t01" name="omnirom_device_huawei_g750t01" remote="omnirom-mtk" revision="android-6.0" />
-  <project path="vendor/Micromax/E313" name="android_vendor_Micromax_E313" remote="som" revision="mm6.0" />
+  <project path="device/Micromax/E313" name="s0m-aosp/android_device_Micromax_E313" remote="github" revision="android-6.0" />
+  <project path="vendor/Micromax/E313" name="s0m-aosp/android_vendor_Micromax_E313" remote="github" revision="mm6.0" />
 </manifest>
