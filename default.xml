@@ -551,6 +551,6 @@
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
-  <project path="device/Micromax/E313" name="s0m-aosp/android_device_Micromax_E313" remote="github" revision="android-6.0" />
+  <project path="device/Micromax/E313" name="s0m-aosp/android_device_Micromax_E313" remote="github" revision="mm6.0" />
   <project path="vendor/Micromax/E313" name="s0m-aosp/android_vendor_Micromax_E313" remote="github" revision="mm6.0" />
 </manifest>
